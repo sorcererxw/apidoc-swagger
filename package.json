@@ -1,21 +1,21 @@
 {
-  "name": "apidoc-swagger",
+  "name": "@sorcererxw/apidoc-swagger",
   "version": "0.2.3",
   "description": "Convert api doc json to swagger json",
-  "author": "Bahman Fakhr Sabahi",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/fsbahman/apidoc-swagger/blob/master/README.md/LICENSE"
-  },
+  "author": "sorcererxw",
+  "license": "MIT",
   "preferGlobal": true,
   "bin": "bin/apidocSwagger.js",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fsbahman/apidoc-swagger.git"
+    "url": "https://github.com/sorcererxw/apidoc-swagger.git"
   },
   "bugs": {
-    "url": "https://github.com/fsbahman/apidoc-swagger/issues"
+    "url": "https://github.com/sorcererxw/apidoc-swagger/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "api",
